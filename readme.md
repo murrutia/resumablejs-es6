@@ -1,5 +1,7 @@
 # Resumable.js used as an ES6 module
 
+Based on https://github.com/23/resumable.js
+
 ## How it was built
 
 * import of the library with `npm i resumablejs`
