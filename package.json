@@ -1,0 +1,9 @@
+{
+    "devDependencies": {
+        "resumablejs": "^1.1.0"
+    },
+    "scripts": {
+        "start": "php -S localhost:8000",
+        "modulize:resumable": "cp node_modules/resumablejs/resumable.js ./js/resumable-es6.js; echo 'export default Resumable' >> ./js/resumable-es6.js"
+    }
+}

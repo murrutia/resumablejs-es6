@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resumable.js - Multiple simultaneous, stable and resumable uploads via the HTML5 File API</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="frame">
+
+        <h1>Resumable.js ES6</h1>
+        <p>
+            This demo is based upon the <a href="http://www.resumablejs.com/">Resumable.js</a> library.<br/>
+        </p>
+        <h3>Demo</h3>
+
+        <div class="resumable">
+
+            <div class="not-supported">
+                Your browser, unfortunately, is not supported by Resumable.js. The library requires support for <a
+                    href="http://www.w3.org/TR/FileAPI/">the HTML5 File API</a> along with <a
+                    href="http://www.w3.org/TR/FileAPI/#normalization-of-params">file slicing</a>.
+            </div>
+
+            <div class="drop">
+                Drop video files here to upload or <a class="browse"><u>select from your computer</u></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
